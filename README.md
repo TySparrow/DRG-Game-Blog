@@ -1,1 +1,1 @@
-# DRG-Game-Blog
+# DRG-Game-Blog is a single page website that uses vanilla JavaScript, HTML, and CSS elements. Class objects are initialized in the Miner.js file, and imported into a script.js file. Then, using JavaScript functions, the HTML is created for each class, and styled. 
