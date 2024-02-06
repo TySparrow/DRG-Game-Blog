@@ -1,1 +1,4 @@
-# DRG-Game-Blog is a single page website that uses vanilla JavaScript, HTML, and CSS elements. Class objects are initialized in the Miner.js file, and imported into a script.js file. Then, using JavaScript functions, the HTML is created for each class, and styled. 
+# 'DRG-Game-Blog' 
+A simple side project inspired by the online co-op video game Deep Rock Galactic, developed by Ghost Ship Games. I designed this webpage using JavaScript, HTML, and CSS elements.
+
+For more information about the game visit their official page here: https://www.deeprockgalactic.com/
