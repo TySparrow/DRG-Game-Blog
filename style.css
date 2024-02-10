@@ -2,6 +2,7 @@
   font-family: sans-serif;
   background-color: rgb(23, 23, 23);
   color: rgb(232, 227, 227);
+  font-size: 14px;
 }
 
 .site-title {
@@ -16,23 +17,49 @@
 .site-description {
   display: block;
   width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+  margin: 20px;
 }
+
 #cover-photo {
   max-width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 80%;
 }
 
 .class-container {
   border: solid 1px;
   margin-bottom: 10px;
-  display: block;
-  width: 45%;
   padding: 1rem;
+}
+
+.miner-image {
+  width: 80%;
+  padding: 14px;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "gunner gunner-info"
+    "driller driller-info";
+}
+
+#gunner {
+  grid-area: gunner;
+}
+
+#driller {
+  grid-area: driller;
+}
+
+#gunner-info {
+  grid-area: gunner-info;
+}
+
+#driller-info {
+  grid-area: driller-info;
 }

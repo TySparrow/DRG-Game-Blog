@@ -1,5 +1,6 @@
 class Miner {
-  constructor(minerClass, primaryWeapon, secondaryWeapon, throwable, primaryEquipment, secondaryEquipment) {
+  constructor( image, minerClass, primaryWeapon, secondaryWeapon, throwable, primaryEquipment, secondaryEquipment) {
+    this.image = image;
     this.minerClass= minerClass;
     this.primaryWeapon = primaryWeapon;
     this.secondaryWeapon = secondaryWeapon;
