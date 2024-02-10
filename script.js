@@ -172,7 +172,7 @@ function populateClassesHTML() {
   const mainContainer = document.getElementById("main-container");
 
   const gunnerImage = document.createElement("img");
-  gunnerImage.src = "gunner.jpg";
+  gunnerImage.src = "Gunner.jpg";
   gunnerImage.alt = "Gunner";
   gunnerImage.classList.add("miner-image");
 
